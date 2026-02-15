@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Creative Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Registration Form</h2>
+
+        <form id="myForm">
+
+            <div class="input-group">
+                <label>Name</label>
+                <input type="text" id="name">
+                <small class="error" id="nameError"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Phone Number</label>
+                <input type="text" id="phone">
+                <small class="error" id="phoneError"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="text" id="email">
+                <small class="error" id="emailError"></small>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
